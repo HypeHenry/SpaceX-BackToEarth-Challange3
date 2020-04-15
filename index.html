@@ -6,12 +6,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="css/main.css" rel="stylesheet" />
+    <script src="javascript/weather.js" defer ></script>
+
 
 </head>
 <body>
 <header>
     <figure>
-<!--        <img class="logo" src="img/rolex.svg" alt="logo">-->
+        <img class="logo" src="img/rolex.svg" alt="logo">
     </figure>
 </header>
 
@@ -19,26 +21,50 @@
 <main>
     <article class="ground">
         <figure>
-            <div class="earth">
-                <div></div>
+            <div class="landing">
+                <input type="text"  class="search-box" placeholder="Search landingplace">
+                <input type="submit" class="button"  value="submit" >
             </div>
         </figure>
     </article>
-
     <article class="ground">
         <figure>
-            <div class="mars">
-                <div></div>
+            <div class="landing">
+                <h1 class="name"></h1>
+            </div>
+        </figure>
+    </article>
+    <article class="ground">
+        <figure>
+            <div class="landing">
+                <p class="temp"></p>
+
+            </div>
+        </figure>
+    </article>
+    <article class="ground">
+        <figure>
+            <div class="landing">
+                <p class="desc"></p>
             </div>
         </figure>
     </article>
 
-    <article class="bar">
-        <div id="MySpaceDisplay" class="clock">
-        </div>
-    </article>
+<!--    <article class="ground">-->
+<!--        <figure>-->
+<!--            <div class="landing">16&#176;C</div>-->
+<!--        </figure>-->
+<!--    </article>-->
+
+<!--    <article class="bar">-->
+<!--        <div id="land" class="clock">-->
+<!--        </div>-->
+<!--    </article>-->
+<!--    <article class="bar">-->
+<!--        <div id="map" class="clock">-->
+<!--        </div>-->
+<!--    </article>-->
 </main>
-<script src="javascript/api.js"></script>
 
 </body>
 </html>
