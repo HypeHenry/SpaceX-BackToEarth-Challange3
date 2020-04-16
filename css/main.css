@@ -13,9 +13,9 @@ body {
     font-weight: 400;
 
     background-image: url("../img/bg.jpg");
-    background-size: cover;
+    background-size: cover ;
     background-position: top center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     color: white;
 
 }
@@ -142,7 +142,7 @@ article{
         width: 15rem;
     }
     .bar{
-        height: 10rem;
+        height: 20rem;
 
     }
 }
