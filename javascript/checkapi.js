@@ -10,7 +10,7 @@ $(document).ready(function () {
         imagesearch(search)
     })
 
-    function imagesearch() {
+    function imagesearch(search) {
         $.ajax({
             method: 'GET',
             beforeSend: function (xhr) {
