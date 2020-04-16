@@ -7,7 +7,7 @@ $(document).ready(function () {
 
         let search = $("#search").val()
 
-        imagesearch()
+        imagesearch(search)
     })
 
     function imagesearch() {
