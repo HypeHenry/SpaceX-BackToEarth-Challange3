@@ -6,4 +6,4 @@ ook van de javascript lib: jquery
 
 
 
-http://localhost:63342/SpaceX-BackToEarth-Challange3/index.html
+https://hypehenry.github.io/SpaceX-BackToEarth-Challange3/
