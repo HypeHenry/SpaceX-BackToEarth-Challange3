@@ -6,14 +6,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="css/main.css" rel="stylesheet" />
-    <script src="javascript/weather.js" defer ></script>
 
 
 </head>
 <body>
 <header>
     <figure>
-        <img class="logo" src="img/rolex.svg" alt="logo">
+<!--        <img class="logo" src="img/rolex.svg" alt="logo">-->
     </figure>
 </header>
 
@@ -22,8 +21,10 @@
     <article class="ground">
         <figure>
             <div class="landing">
-                <input type="text"  class="search-box" placeholder="Search landingplace">
-                <input type="submit" class="button"  value="submit" >
+                <form id="form">
+                    <input type="text"  class="search-box" id="search" placeholder="Search landingplace">
+                    <input type="submit" class="button"  value="submit" >
+                </form>
             </div>
         </figure>
     </article>
@@ -37,7 +38,7 @@
     <article class="ground">
         <figure>
             <div class="landing">
-                <p class="temp"></p>
+                <p class="temp"></p><p>&#176;C</p>
 
             </div>
         </figure>
@@ -45,16 +46,29 @@
     <article class="ground">
         <figure>
             <div class="landing">
-                <p class="desc"></p>
+                <p>Luchtvochtigheid: </p><p class="hum"></p><p>%</p>
+
+            </div>
+        </figure>
+    </article>
+    <article class="ground">
+        <figure>
+            <div class="landing">
+                <p>beschrijving: </p><p class="desc"></p>
             </div>
         </figure>
     </article>
 
-<!--    <article class="ground">-->
-<!--        <figure>-->
-<!--            <div class="landing">16&#176;C</div>-->
-<!--        </figure>-->
-<!--    </article>-->
+    <article class="ground">
+        <figure>
+            <div class="landing">
+                <div id="images">
+
+
+                </div>
+            </div>
+        </figure>
+    </article>
 
 <!--    <article class="bar">-->
 <!--        <div id="land" class="clock">-->
@@ -67,4 +81,9 @@
 </main>
 
 </body>
+<script src="javascript/weather.js" ></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" ></script>
+<script src="javascript/checkapi.js"  ></script>
+
+
 </html>
